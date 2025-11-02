@@ -1,0 +1,94 @@
+
+.App {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 0 0 16px 16px;
+}
+
+.App-link {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap overrides */
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  border-radius: 0 0 16px 16px;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link.active {
+  color: #ffd700 !important;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table-dark th {
+  background: #007bff !important;
+  color: #fff;
+}
+.btn {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 4px;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+  color: #ffd700;
+}
+.card-title {
+  color: #007bff;
+  font-weight: bold;
+}
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.modal-content {
+  border-radius: 16px;
+}
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
